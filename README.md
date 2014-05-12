@@ -1322,7 +1322,7 @@
     $(document).ready(function(){...});
 
     // good
-    $(function(){...});
+    $(function() {...});
     ```
 
   - Prefix jQuery object variables with a `$`.
