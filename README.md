@@ -1319,7 +1319,7 @@
 
     ```javascript
     // bad
-    $(document).ready(function(){...});
+    $(document).ready(function() {...});
 
     // good
     $(function() {...});
