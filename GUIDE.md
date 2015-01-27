@@ -369,40 +369,20 @@
     var superPower = new SuperPower();
     ```
 
-  - Use one `var` declaration for multiple variables and declare each variable on a newline.
+  - Use multiple `var` declarations except when all the variables are undefined.
 
     ```javascript
     // bad
     var items = getItems();
+        goSportsTeam = true,
+        dragonball = 'z',
+        a, b, c;
+
+    // good
+    var items = getItems();
     var goSportsTeam = true;
     var dragonball = 'z';
-
-    // good
-    var items = getItems(),
-        goSportsTeam = true,
-        dragonball = 'z';
-    ```
-
-  - Declare unassigned variables last. This is helpful when later on you might need to assign a variable depending on one of the previous assigned variables.
-
-    ```javascript
-    // bad
-    var i, len, dragonball,
-        items = getItems(),
-        goSportsTeam = true;
-
-    // bad
-    var i, items = getItems(),
-        dragonball,
-        goSportsTeam = true,
-        len;
-
-    // good
-    var items = getItems(),
-        goSportsTeam = true,
-        dragonball,
-        length,
-        i;
+    var a, b, c;
     ```
 
   - Assign variables at the top of their scope. This helps avoid issues with variable declaration and assignment hoisting related issues.
