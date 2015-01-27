@@ -14,6 +14,14 @@ If you would like to contribute, open a PR with a suggestion. Please ensure the
 samples still pass. Once it's been reviewed, we'll update our main repository
 with the latest [.jscsrc](.jscsrc) and [.jshintrc](.jshintrc).
 
+## Testing the linter
+
+* `npm install`
+* `./test.sh`
+
+The test script validates that the test files inside the [samples](samples)
+directory pass the rules. If this fails, fix the rule, or fix the test file.
+
 ### Customizing the linters
 
 For the most part, you shouldn't need to customize the rule set. The only thing

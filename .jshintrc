@@ -1,3 +1,12 @@
+// Refer to http://jshint.com/docs/options/ for explanations of these rules
+// Please keep rules in alphabetical order (with environments below)
 {
-	"eqeqeq": true     // true: Require triple equals (===) for comparison
+	"eqeqeq": true,
+	"undef": true,
+
+
+	// Environments
+	"browser": true,
+	"devel": true,
+	"jquery": true
 }
