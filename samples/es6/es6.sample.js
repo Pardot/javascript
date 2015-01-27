@@ -1,4 +1,7 @@
 import Ember from 'ember';
 
-if(5 === 5) {
+function es6(isVerbose) {
+	if (isVerbose) {
+		console.log('foo');
+	}
 }

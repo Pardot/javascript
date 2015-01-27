@@ -1,3 +1,111 @@
+// For defintion of rules, see: http://jscs.info/rules.html
+// Please keep rules in alphabetical order
 {
-  "esnext": true
+  "esnext": true,
+  "disallowDanglingUnderscores": true,
+  "disallowEmptyBlocks": true,
+  "disallowImplicitTypeConversion": ["numeric", "boolean", "binary", "string"],
+  "disallowKeywordsOnNewLine": ["else"],
+  "disallowMixedSpacesAndTabs": "smart",
+  "disallowMultipleLineBreaks": true,
+  "disallowMultipleLineStrings": true,
+  "disallowMultipleVarDecl": "exceptUndefined",
+  "disallowNewlineBeforeBlockStatements": true,
+  "disallowOperatorBeforeLineBreak": ["+", "."],
+  "disallowPaddingNewlinesBeforeKeywords": [
+    "do",
+    "for",
+    "if",
+    "else",
+    "switch",
+    "case",
+    "try",
+    "catch",
+    "void",
+    "while",
+    "with",
+    "return",
+    "typeof"
+  ],
+  "disallowQuotedKeysInObjects": "allButReserved",
+  "disallowSpaceAfterObjectKeys": true,
+  "disallowSpaceAfterPrefixUnaryOperators": true,
+  "disallowSpaceBeforePostfixUnaryOperators": true,
+  "disallowSpacesInCallExpression": true,
+  "disallowSpacesInFunctionDeclaration": {
+    "beforeOpeningRoundBrace": true
+  },
+  "disallowSpacesInFunctionExpression": {
+    "beforeOpeningRoundBrace": true
+  },
+  "disallowSpacesInFunction": {
+    "beforeOpeningRoundBrace": true
+  },
+  "disallowSpacesInsideArrayBrackets": "all",
+  "disallowSpacesInsideParentheses": true,
+  "disallowTrailingComma": true,
+  "disallowTrailingWhitespace": true,
+  "disallowYodaConditions": true,
+  "requireBlocksOnNewline": 1,
+  "requireCamelCaseOrUpperCaseIdentifiers": true,
+  "requireCapitalizedConstructors": true,
+  "requireCommaBeforeLineBreak": true,
+  "requireCurlyBraces": [
+    "if",
+    "else",
+    "for",
+    "while",
+    "do",
+    "try",
+    "catch",
+    "case",
+    "default"
+  ],
+  "requireDotNotation": true,
+  "requireLineBreakAfterVariableAssignment": true,
+  "requireLineFeedAtFileEnd": true,
+  "requirePaddingNewlinesBeforeKeywords": [
+      "do",
+      "for",
+      "if",
+      "else",
+      "switch",
+      "case",
+      "try",
+      "catch",
+      "void",
+      "while",
+      "with",
+      "return",
+      "typeof"
+  ],
+  "requireParenthesesAroundIIFE": true,
+  "requireSpaceAfterBinaryOperators": true,
+  "requireSpaceAfterKeywords": [
+    "do",
+    "for",
+    "if",
+    "else",
+    "switch",
+    "case",
+    "try",
+    "while",
+    "with",
+    "return"
+  ],
+  "requireSpaceAfterLineComment": { "allExcept": ["#", "="] },
+  "requireSpaceBeforeBinaryOperators": true,
+  "requireSpaceBeforeBlockStatements": true,
+  "requireSpaceBeforeKeywords": [
+    "else",
+    "while",
+    "catch"
+  ],
+  "requireSpaceBeforeObjectValues": true,
+  "requireSpaceBetweenArguments": true,
+  "requireSpacesInForStatement": true,
+  "safeContextKeyword": ["that"],
+  "validateIndentation": "\t",
+  "validateLineBreaks": "LF",
+  "validateQuoteMarks": "'"
 }

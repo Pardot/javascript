@@ -16,8 +16,6 @@ with the latest [.jscsrc](.jscsrc) and [.jshintrc](.jshintrc).
 
 ### Customizing the linters
 
-WIP
-
 For the most part, you shouldn't need to customize the rule set. The only thing
 that might be acceptable would be to **add** an additional rule. An example of this
 would be using experimental ES6 features.
@@ -31,5 +29,5 @@ To extend jshint, add an option to `extends` the master `.jshintrc`. See an
 
 At the moment, there is no way to extend other rule sets (see
 [issue](https://github.com/jscs-dev/node-jscs/issues/109)). So please copy the
-existing rule set, add in your additional rules, and track for any changes from
-the master copy.
+existing rule set ([example](./samples/es6/.jscsrc)), add in your additional
+rules, and track for any changes from the master copy.
