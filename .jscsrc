@@ -1,7 +1,6 @@
 // For defintion of rules, see: http://jscs.info/rules.html
 // Please keep rules in alphabetical order
 {
-  "disallowDanglingUnderscores": true,
   "disallowEmptyBlocks": true,
   "disallowImplicitTypeConversion": ["numeric", "boolean", "binary", "string"],
   "disallowKeywordsOnNewLine": ["else"],
@@ -10,21 +9,6 @@
   "disallowMultipleLineStrings": true,
   "disallowMultipleVarDecl": "exceptUndefined",
   "disallowOperatorBeforeLineBreak": ["+", "."],
-  "disallowPaddingNewlinesBeforeKeywords": [
-    "do",
-    "for",
-    "if",
-    "else",
-    "switch",
-    "case",
-    "try",
-    "catch",
-    "void",
-    "while",
-    "with",
-    "return",
-    "typeof"
-  ],
   "disallowQuotedKeysInObjects": "allButReserved",
   "disallowSpaceAfterObjectKeys": true,
   "disallowSpaceAfterPrefixUnaryOperators": true,
@@ -102,7 +86,7 @@
   "requireSpaceBeforeObjectValues": true,
   "requireSpaceBetweenArguments": true,
   "requireSpacesInForStatement": true,
-  "safeContextKeyword": ["that"],
+  "safeContextKeyword": ["_this"],
   "validateIndentation": "\t",
   "validateLineBreaks": "LF",
   "validateQuoteMarks": "'"

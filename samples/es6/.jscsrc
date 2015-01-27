@@ -2,7 +2,6 @@
 // Please keep rules in alphabetical order
 {
   "esnext": true,
-  "disallowDanglingUnderscores": true,
   "disallowEmptyBlocks": true,
   "disallowImplicitTypeConversion": ["numeric", "boolean", "binary", "string"],
   "disallowKeywordsOnNewLine": ["else"],
@@ -12,21 +11,6 @@
   "disallowMultipleVarDecl": "exceptUndefined",
   "disallowNewlineBeforeBlockStatements": true,
   "disallowOperatorBeforeLineBreak": ["+", "."],
-  "disallowPaddingNewlinesBeforeKeywords": [
-    "do",
-    "for",
-    "if",
-    "else",
-    "switch",
-    "case",
-    "try",
-    "catch",
-    "void",
-    "while",
-    "with",
-    "return",
-    "typeof"
-  ],
   "disallowQuotedKeysInObjects": "allButReserved",
   "disallowSpaceAfterObjectKeys": true,
   "disallowSpaceAfterPrefixUnaryOperators": true,
