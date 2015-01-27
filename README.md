@@ -1,6 +1,6 @@
 # Pardot JavaScript
 
-Want a basic overview? See [GUIDE.md](GUIDE.md).
+Want a basic overview? See the [GUIDE.md](GUIDE).
 
 ## Linting
 
@@ -24,9 +24,8 @@ would be using experimental ES6 features.
 
 #### jshint
 
-To extend jshint, add an option to `extends` the master .jshintrc. See an
-[example](./samples/es6/.jshintrc').
-
+To extend jshint, add an option to `extends` the master `.jshintrc`. See an
+[example](./samples/es6/.jshintrc).
 
 #### jscs
 
