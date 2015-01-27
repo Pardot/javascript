@@ -1,6 +1,6 @@
 # Pardot JavaScript
 
-Want a basic overview? See the [GUIDE.md](GUIDE).
+Want a basic overview? See the [GUIDE](GUIDE.md).
 
 ## Linting
 
