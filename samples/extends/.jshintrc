@@ -1,0 +1,7 @@
+{
+	"esnext": true,
+	"extends": "../../.jshintrc",
+	"globals": {
+		"MY_GLOBAL": false
+	}
+}
