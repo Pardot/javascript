@@ -1,0 +1,20 @@
+{
+  "name": "javascript",
+  "private": true,
+  "version": "0.0.1",
+  "scripts": {
+    "test": "./test.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Pardot/javascript.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://github.com/Pardot/javascript",
+  "devDependencies": {
+    "jscs": "^1.10.0",
+    "jshint": "^2.6.0",
+    "jshint-junit-reporter": "^0.1.0"
+  }
+}
