@@ -31,11 +31,11 @@ would be using experimental ES6 features.
 #### jshint
 
 To extend jshint, add an option to `extends` the master `.jshintrc`. See an
-[example](./samples/es6/.jshintrc).
+[example](samples/extends/.jshintrc).
 
 #### jscs
 
 At the moment, there is no way to extend other rule sets (see
 [issue](https://github.com/jscs-dev/node-jscs/issues/109)). So please copy the
-existing rule set ([example](./samples/es6/.jscsrc)), add in your additional
+existing rule set ([example](samples/extends/.jscsrc)), add in your additional
 rules, and track for any changes from the master copy.
