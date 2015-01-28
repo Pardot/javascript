@@ -1,18 +1,20 @@
-# Pardot JavaScript
+# Pardot Javascript
 
 Want a basic overview? See the [GUIDE](GUIDE.md).
+
+The rest of this document covers the code linters we use. This is designed to be
+a living repository.
 
 ## Linting
 
 We use [jscs](http://jscs.info/) and [jshint](http://jshint.com") to lint our
-JavaScript. The two are designed to be mutually exclusive where the former
+Javascript. The two are designed to be mutually exclusive where the former
 defines *style* and the latter defines *saving your ass*.
 
-A set of [samples](samples) are included that run against the rule sets.
+See the current state of the [jscs ruleset](.jscsrc) and [jshint
+ruleset](.jshintrc).
 
-If you would like to contribute, open a PR with a suggestion. Please ensure the
-samples still pass. Once it's been reviewed, we'll update our main repository
-with the latest [.jscsrc](.jscsrc) and [.jshintrc](.jshintrc).
+A set of [samples](samples) are included that run against the rule sets.
 
 ### Customizing the linters
 

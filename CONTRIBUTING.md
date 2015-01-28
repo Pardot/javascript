@@ -17,6 +17,9 @@ exclusive, that doesn't always seem to be the case. Try to find a rule for
 `jscs` first, if none exists, find one for `jshint`. Do your best not to have
 the rulesets overlap.
 
+Once it's been reviewed, we'll update our main repository
+with the latest [.jscsrc](.jscsrc) and [.jshintrc](.jshintrc).
+
 
 ## <a name='testing'>Testing the Rulesets</a>
 

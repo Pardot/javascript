@@ -1,6 +1,6 @@
-# Pardot JavaScript Style Guide() {
+# Pardot Javascript Style Guide() {
 
-*A mostly reasonable approach to JavaScript*
+*A mostly reasonable approach to Javascript*
 
 
 ## <a name='TOC'>Table of Contents</a>
