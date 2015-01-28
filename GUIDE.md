@@ -580,7 +580,7 @@
 
 ## <a name='blocks'>Blocks</a>
 
-  - Use braces with all multi-line blocks.
+  - Use braces with all blocks.
 
     ```javascript
     // bad
@@ -588,18 +588,10 @@
       return false;
 
     // good
-    if (test) return false;
+    if (test) { return false; }
 
     // good
     if (test) {
-      return false;
-    }
-
-    // bad
-    function() { return false; }
-
-    // good
-    function() {
       return false;
     }
     ```
