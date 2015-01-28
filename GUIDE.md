@@ -27,13 +27,8 @@
   1. [jQuery](#jquery)
   1. [ES5 Compatibility](#es5)
   1. [Testing](#testing)
-  1. [Performance](#performance)
   1. [Documentation](#documentation)
-  1. [Resources](#resources)
-  1. [In the Wild](#in-the-wild)
-  1. [Translation](#translation)
-  1. [The JavaScript Style Guide Guide](#guide-guide)
-  1. [Contributors](#contributors)
+  1. [File Naming](#file-naming)
   1. [License](#license)
 
 ## <a name='types'>Types</a>
@@ -1348,130 +1343,14 @@
     **[[⬆]](#TOC)**
 
 
-## <a name='performance'>Performance</a>
-
-  - [On Layout & Web Performance](http://kellegous.com/j/2013/01/26/layout-performance/)
-  - [String vs Array Concat](http://jsperf.com/string-vs-array-concat/2)
-  - [Try/Catch Cost In a Loop](http://jsperf.com/try-catch-in-loop-cost)
-  - [Bang Function](http://jsperf.com/bang-function)
-  - [jQuery Find vs Context, Selector](http://jsperf.com/jquery-find-vs-context-sel/13)
-  - [innerHTML vs textContent for script text](http://jsperf.com/innerhtml-vs-textcontent-for-script-text)
-  - [Long String Concatenation](http://jsperf.com/ya-string-concat)
-  - Loading...
-
-  **[[⬆]](#TOC)**
-
 ## <a name='documentation'>Documentation</a>
 
   - **Yup.** Use [YUIDoc](http://yui.github.io/yuidoc/syntax/) as a reference.
 
-## <a name='resources'>Resources</a>
+## <a name='file-naming'>File naming</a>
 
-
-**Read This**
-
-  - [Annotated ECMAScript 5.1](http://es5.github.com/)
-
-**Other Styleguides**
-
-  - [Google JavaScript Style Guide](http://google-styleguide.googlecode.com/svn/trunk/javascriptguide.xml)
-  - [jQuery Core Style Guidelines](http://docs.jquery.com/JQuery_Core_Style_Guidelines)
-  - [Principles of Writing Consistent, Idiomatic JavaScript](https://github.com/rwldrn/idiomatic.js/)
-
-**Other Styles**
-
-  - [Naming this in nested functions](https://gist.github.com/4135065) - Christian Johansen
-  - [Conditional Callbacks](https://github.com/airbnb/javascript/issues/52)
-  - [Popular JavaScript Coding Conventions on Github](http://sideeffect.kr/popularconvention/#javascript)
-
-**Further Reading**
-
-  - [Understanding JavaScript Closures](http://javascriptweblog.wordpress.com/2010/10/25/understanding-javascript-closures/) - Angus Croll
-  - [Basic JavaScript for the impatient programmer](http://www.2ality.com/2013/06/basic-javascript.html) - Dr. Axel Rauschmayer
-  - [You Might Not Need jQuery](http://youmightnotneedjquery.com/) - Zack Bloom & Adam Schwartz
-
-**Books**
-
-  - [JavaScript: The Good Parts](http://www.amazon.com/JavaScript-Good-Parts-Douglas-Crockford/dp/0596517742) - Douglas Crockford
-  - [JavaScript Patterns](http://www.amazon.com/JavaScript-Patterns-Stoyan-Stefanov/dp/0596806752) - Stoyan Stefanov
-  - [Pro JavaScript Design Patterns](http://www.amazon.com/JavaScript-Design-Patterns-Recipes-Problem-Solution/dp/159059908X)  - Ross Harmes and Dustin Diaz
-  - [High Performance Web Sites: Essential Knowledge for Front-End Engineers](http://www.amazon.com/High-Performance-Web-Sites-Essential/dp/0596529309) - Steve Souders
-  - [Maintainable JavaScript](http://www.amazon.com/Maintainable-JavaScript-Nicholas-C-Zakas/dp/1449327680) - Nicholas C. Zakas
-  - [JavaScript Web Applications](http://www.amazon.com/JavaScript-Web-Applications-Alex-MacCaw/dp/144930351X) - Alex MacCaw
-  - [Pro JavaScript Techniques](http://www.amazon.com/Pro-JavaScript-Techniques-John-Resig/dp/1590597273) - John Resig
-  - [Smashing Node.js: JavaScript Everywhere](http://www.amazon.com/Smashing-Node-js-JavaScript-Everywhere-Magazine/dp/1119962595) - Guillermo Rauch
-  - [Secrets of the JavaScript Ninja](http://www.amazon.com/Secrets-JavaScript-Ninja-John-Resig/dp/193398869X) - John Resig and Bear Bibeault
-  - [Human JavaScript](http://humanjavascript.com/) - Henrik Joreteg
-  - [Superhero.js](http://superherojs.com/) - Kim Joar Bekkelund, Mads Mobæk, & Olav Bjorkoy
-  - [JSBooks](http://jsbooks.revolunet.com/)
-  - [Third Party JavaScript](http://manning.com/vinegar/) - Ben Vinegar and Anton Kovalyov
-
-**Blogs**
-
-  - [DailyJS](http://dailyjs.com/)
-  - [JavaScript Weekly](http://javascriptweekly.com/)
-  - [JavaScript, JavaScript...](http://javascriptweblog.wordpress.com/)
-  - [Bocoup Weblog](http://weblog.bocoup.com/)
-  - [Adequately Good](http://www.adequatelygood.com/)
-  - [NCZOnline](http://www.nczonline.net/)
-  - [Perfection Kills](http://perfectionkills.com/)
-  - [Ben Alman](http://benalman.com/)
-  - [Dmitry Baranovskiy](http://dmitry.baranovskiy.com/)
-  - [Dustin Diaz](http://dustindiaz.com/)
-  - [nettuts](http://net.tutsplus.com/?s=javascript)
-
-  **[[⬆]](#TOC)**
-
-## <a name='in-the-wild'>In the Wild</a>
-
-  This is a list of organizations that are using this style guide. Send us a pull request or open an issue and we'll add you to the list.
-
-  - **Aan Zee**: [AanZee/javascript](https://github.com/AanZee/javascript)
-  - **Airbnb**: [airbnb/javascript](https://github.com/airbnb/javascript)
-  - **American Insitutes for Research**: [AIRAST/javascript](https://github.com/AIRAST/javascript)
-  - **Compass Learning**: [compasslearning/javascript-style-guide](https://github.com/compasslearning/javascript-style-guide)
-  - **ExactTarget**: [ExactTarget/javascript](https://github.com/ExactTarget/javascript)
-  - **Gawker Media**: [gawkermedia/javascript](https://github.com/gawkermedia/javascript)
-  - **GeneralElectric**: [GeneralElectric/javascript](https://github.com/GeneralElectric/javascript)
-  - **GoodData**: [gooddata/gdc-js-style](https://github.com/gooddata/gdc-js-style)
-  - **Grooveshark**: [grooveshark/javascript](https://github.com/grooveshark/javascript)
-  - **How About We**: [howaboutwe/javascript](https://github.com/howaboutwe/javascript)
-  - **Mighty Spring**: [mightyspring/javascript](https://github.com/mightyspring/javascript)
-  - **MinnPost**: [MinnPost/javascript](https://github.com/MinnPost/javascript)
-  - **ModCloth**: [modcloth/javascript](https://github.com/modcloth/javascript)
-  - **Money Advice Service**: [moneyadviceservice/javascript](https://github.com/moneyadviceservice/javascript)
-  - **National Geographic**: [natgeo/javascript](https://github.com/natgeo/javascript)
-  - **National Park Service**: [nationalparkservice/javascript](https://github.com/nationalparkservice/javascript)
-  - **Peerby**: [Peerby/javascript](https://github.com/Peerby/javascript)
-  - **Razorfish**: [razorfish/javascript-style-guide](https://github.com/razorfish/javascript-style-guide)
-  - **REI**: [reidev/js-style-guide](https://github.com/reidev/js-style-guide)
-  - **Shutterfly**: [shutterfly/javascript](https://github.com/shutterfly/javascript)
-  - **Userify**: [userify/javascript](https://github.com/userify/javascript)
-  - **Zillow**: [zillow/javascript](https://github.com/zillow/javascript)
-  - **ZocDoc**: [ZocDoc/javascript](https://github.com/ZocDoc/javascript)
-
-## <a name='translation'>Translation</a>
-
-  This style guide is also available in other languages:
-
-  - :de: **German**: [timofurrer/javascript-style-guide](https://github.com/timofurrer/javascript-style-guide)
-  - :jp: **Japanese**: [mitsuruog/javacript-style-guide](https://github.com/mitsuruog/javacript-style-guide)
-  - :br: **Portuguese**: [armoucar/javascript-style-guide](https://github.com/armoucar/javascript-style-guide)
-  - :cn: **Chinese**: [adamlu/javascript-style-guide](https://github.com/adamlu/javascript-style-guide)
-  - :es: **Spanish**: [paolocarrasco/javascript-style-guide](https://github.com/paolocarrasco/javascript-style-guide)
-  - :kr: **Korean**: [tipjs/javascript-style-guide](https://github.com/tipjs/javascript-style-guide)
-  - :fr: **French**: [nmussy/javascript-style-guide](https://github.com/nmussy/javascript-style-guide)
-  - :ru: **Russian**: [uprock/javascript](https://github.com/uprock/javascript)
-  - :bg: **Bulgarian**: [borislavvv/javascript](https://github.com/borislavvv/javascript)
-
-## <a name='guide-guide'>The JavaScript Style Guide Guide</a>
-
-  - [Reference](https://github.com/airbnb/javascript/wiki/The-JavaScript-Style-Guide-Guide)
-
-## <a name='authors'>Contributors</a>
-
-  - [View Contributors](https://github.com/airbnb/javascript/graphs/contributors)
-
+  - This is outside the scope of this document. Develop a convention and stick
+    to it.
 
 ## <a name='license'>License</a>
 
