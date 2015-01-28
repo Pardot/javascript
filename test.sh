@@ -1,11 +1,11 @@
 #!/bin/bash
 
 # Runs style check tests against the samples directory.
+# `./test.sh`
 # By default, it'll use the default reporter (console).
 #
 # To run with the CI (output in JUnit format), run with
 # `./test.sh ci`
-# See `--reporter` options here: http://jscs.info/overview.html#cli
 
 readonly NPM_BIN_PATH="./node_modules/.bin"
 readonly JSCS="${NPM_BIN_PATH}/jscs"

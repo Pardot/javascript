@@ -14,19 +14,11 @@ If you would like to contribute, open a PR with a suggestion. Please ensure the
 samples still pass. Once it's been reviewed, we'll update our main repository
 with the latest [.jscsrc](.jscsrc) and [.jshintrc](.jshintrc).
 
-## Testing the linter
-
-* `npm install`
-* `./test.sh`
-
-The test script validates that the test files inside the [samples](samples)
-directory pass the rules. If this fails, fix the rule, or fix the test file.
-
 ### Customizing the linters
 
 For the most part, you shouldn't need to customize the rule set. The only thing
 that might be acceptable would be to **add** an additional rule. An example of this
-would be using experimental ES6 features.
+would be predefining global variables.
 
 #### jshint
 
@@ -39,3 +31,7 @@ At the moment, there is no way to extend other rule sets (see
 [issue](https://github.com/jscs-dev/node-jscs/issues/109)). So please copy the
 existing rule set ([example](samples/extends/.jscsrc)), add in your additional
 rules, and track for any changes from the master copy.
+
+## Contributing
+
+Please make your voice heard. See [CONTRIBUTING](CONTRIBUTING.md).
