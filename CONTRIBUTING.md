@@ -3,9 +3,11 @@
 * Open a pull request with your changes
 * Ping someone to review it.
 
+
 ## Adding/Modifying the Guide
 
 Do it, please. Add, modify, tweak, make it work.
+
 
 ## Adding/Modifying Rulesets
 
@@ -15,11 +17,15 @@ exclusive, that doesn't always seem to be the case. Try to find a rule for
 `jscs` first, if none exists, find one for `jshint`. Do your best not to have
 the rulesets overlap.
 
+
 ## <a name='testing'>Testing the Rulesets</a>
 
 * `npm install`
 * `./test.sh`
 
-The test script validates that the test files inside the [samples](samples)
-directory pass the rules. If this fails, fix the rule, or fix the test file.
-Feel free to add additional samples.
+The [test script](./test.sh) validates that the test files inside the
+[samples](samples) directory pass the rules. If this fails, fix the rule, or fix
+the test file.
+
+Feel free to add additional samples. Be cognizant of including anything that may
+be considered sensitive code.
