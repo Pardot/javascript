@@ -2,6 +2,7 @@
 // Please keep rules in alphabetical order (with environments below)
 {
 	"eqeqeq": true,
+	"es3": true,
 	"undef": true,
 
 
