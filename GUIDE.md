@@ -1337,7 +1337,7 @@
 
 ## <a name='documentation'>Documentation</a>
 
-  - **Yup.** Use [YUIDoc](http://yui.github.io/yuidoc/syntax/) as a reference.
+  - **Yup.** See [DOCUMENTATION](DOCUMENTATION.md).
 
 ## <a name='file-naming'>File naming</a>
 
